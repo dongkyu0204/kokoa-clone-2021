@@ -1,0 +1,37 @@
+.badge {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  width: 22px;
+  height: 22px;
+  font-weight: 600;
+}
+.badge-highlight {
+  border: 2px solid tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-weight: 600;
+  color: tomato;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.badge-highlight2 {
+  border: 2px solid tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-weight: 600;
+  color: tomato;
+  margin-left: 10px;
+  cursor: pointer;
+}

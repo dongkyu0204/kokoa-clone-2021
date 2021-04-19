@@ -1,0 +1,30 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 25px 30px 25px;
+  color: #2e363e;
+}
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.screen-header__icons i {
+  margin-left: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.screen-header__notification {
+  display: inline;
+  position: relative;
+}
+
+.screen-header__notification--dot {
+  background-color: tomato;
+  border-radius: 50%;
+  width: 5.5px;
+  height: 5.5px;
+  position: absolute;
+  right: -6px;
+  top: -12px;
+}

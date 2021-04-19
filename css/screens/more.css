@@ -1,0 +1,24 @@
+.more-functions {
+  margin-top: 60px;
+  border: 5px solid black;
+  padding-top: 40px;
+  border-radius: 25px;
+}
+
+.more-functions__block {
+  padding: 0px 25px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.more-functions__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-functions__icon--text {
+  font-size: 20px;
+}
+.more-functions__icon--image {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>군인을 위한 코코아톡 Mili-Talk</title>
+    <link
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1gUzSGBOZSe00PCl4F5-lFH3klUqMhx44zA&usqp=CAU"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="index">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>98%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="login-header">
+      <h1 class="login-header__title">밀리톡에 오신 것을 환영합니다</h1>
+      <p class="login-header__text">
+        <i class="fas fa-exclamation-triangle"></i>
+        본 플랫폼은 현역으로 복무중인 군인을 위한 것으로서, 이에 해당되지 않을
+        경우 이용을 금합니다.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="군번 ( - 포함)" />
+      <input name="password" type="password" placeholder="생년월일 6자리" />
+      <input type="submit" value="Log-in" />
+      <span
+        >게스트 계정으로도 입장 가능합니다. 공란 상태로 로그인 버튼을
+        누르십시오.
+      </span>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/a3ecbab334.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

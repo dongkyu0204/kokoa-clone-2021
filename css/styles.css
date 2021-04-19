@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/alt-screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/channel.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/award.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+body {
+  font-family: "Yeon Sung", cursive;
+  background-image: url(https://i.pinimg.com/474x/ad/07/11/ad0711bf28f5adcf3130bc9932afdd93.jpg);
+  background-size: 100%;
+  color: #2e363e;
+}
+#chat-screen {
+  background-color: #92e2c1;
+  background-image: none;
+}
+#chat-screen .alt-header {
+  background-color: #92e2c1;
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

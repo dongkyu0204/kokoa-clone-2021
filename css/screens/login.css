@@ -1,0 +1,67 @@
+.index {
+  background-image: url("https://i.pinimg.com/474x/21/04/d4/2104d4eefbadd59a0559da7cbf88f454.jpg");
+}
+
+.login-header {
+  margin: 90px 0px 70px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  color: aliceblue;
+}
+.login-header__title {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+.login-header__text {
+  width: 60%;
+  opacity: 0.95;
+  font-size: 15px;
+  font-weight: 500;
+}
+.login-header__text i {
+  color: rgb(246, 65, 65);
+}
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+#login-form input {
+  padding: 15px 0;
+  border: none;
+  font-size: 19px;
+  margin-bottom: 20px;
+  font-family: "Yeon Sung", cursive;
+}
+#login-form input:not([type="submit"]) {
+  background-color: transparent;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+  color: white;
+}
+#login-form input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+#login-form input:focus {
+  border-color: white;
+}
+#login-form input[type="submit"] {
+  background-color: var(--yellow);
+  cursor: pointer;
+  padding: 20px 0;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #3b1c1c;
+}
+#login-form span {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: aliceblue;
+  opacity: 0.95;
+}

@@ -1,0 +1,40 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(180deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+.nav__notification-1 {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+  animation: notificationAnimation 1.5s ease-in-out infinite;
+}
+.nav__notification-new {
+  position: absolute;
+  left: 21px;
+  bottom: 25px;
+  animation: notificationAnimation 1.5s ease-in-out infinite;
+}

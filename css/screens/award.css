@@ -1,0 +1,94 @@
+.vacation-pass {
+  margin: 8px 20px;
+  padding: 10px 30px;
+  border: 5px solid #dfc771;
+  border-radius: 15px;
+  background-color: ivory;
+}
+.vacation-pass__title {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+.vacation-pass__subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.vacation-pass__subtitle span {
+  font-weight: 600;
+  color: tomato;
+}
+.vacation-pass__text {
+  display: flex;
+}
+.vacation-pass__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.vacation-pass__more {
+  opacity: 0.5;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.award-ellipsis {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.advertise__content {
+  display: flex;
+  justify-content: space-between;
+}
+.advertise__column {
+  margin-top: -10px;
+}
+
+.advertise__title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.advertise__hashtags {
+  font-size: 15px;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.advertise__poster {
+  display: flex;
+  align-items: center;
+}
+.advertise__poster img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.divider {
+  width: 2px;
+  height: 25px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0 15px;
+}
+.advertise__poster--writer {
+  color: rgba(0, 0, 0, 0.7);
+}
+.advertise__poster i {
+  margin-right: 5px;
+}
+.advertise__more {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.advertise .advertise__content:last-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  margin-top: 15px;
+  padding-top: 25px;
+}
