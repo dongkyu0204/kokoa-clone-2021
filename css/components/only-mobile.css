@@ -13,7 +13,7 @@
 #only-mobile {
   position: absolute;
   width: 100vw;
-  height: 120vh;
+  height: 125vh;
   z-index: 99;
   background-color: var(--yellow);
   top: 0;
