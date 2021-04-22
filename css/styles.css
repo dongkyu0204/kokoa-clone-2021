@@ -10,6 +10,7 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/channel.css";
+@import "components/only-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -34,4 +35,5 @@ body {
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
+  height: 105vh;
 }

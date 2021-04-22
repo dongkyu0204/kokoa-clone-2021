@@ -1,0 +1,31 @@
+#only-mobile-index {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+  background-color: var(--yellow);
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+#only-mobile {
+  position: absolute;
+  width: 100vw;
+  height: 120vh;
+  z-index: 99;
+  background-color: var(--yellow);
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+
+@media screen and (max-width: 550px) {
+  #only-mobile,
+  #only-mobile-index {
+    display: none;
+  }
+}

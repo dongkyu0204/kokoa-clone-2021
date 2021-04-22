@@ -28,3 +28,49 @@
   right: -6px;
   top: -12px;
 }
+
+@keyframes spinningCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: spinningCog 1.5s linear infinite;
+}
+
+@keyframes bigger {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.screen-header__icons .fa-search:hover,
+.screen-header__icons .fa-comments:hover {
+  animation: bigger 1s ease-in-out infinite;
+}
+
+@keyframes jump {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.screen-header__icons .fa-music:hover {
+  animation: jump 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
